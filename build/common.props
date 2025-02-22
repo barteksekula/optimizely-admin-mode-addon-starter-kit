@@ -1,0 +1,18 @@
+<Project>
+    <Import Project="version.props" />
+    <PropertyGroup>
+        <Product Condition=" '$(Product)' == '' ">ContentGeneratorAddon</Product>
+        <Description Condition=" '$(Description)' == '' ">ContentGeneratorAddon</Description>
+        <Company>Bartosz Sekuła</Company>
+        <Authors>Bartosz Sekuła</Authors>
+        <Copyright>© 2025 Bartosz Sekuła</Copyright>
+        <PackageProjectUrl>https://github.com/barteksekula/content-generator-addon</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/barteksekula/content-generator-addon/master/LICENSE</PackageLicenseUrl>
+        <PackageTags>EPiServer Optimizely CMS admin mode addon plugin</PackageTags>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+        <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    </PropertyGroup>
+</Project>
